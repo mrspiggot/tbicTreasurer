@@ -6,7 +6,7 @@ from pathlib import Path
 
 cwd = Path.cwd()
 
-with open(cwd.joinpath("assets/graph.pkl"), "rb") as f:
+with open(cwd.joinpath("tbicTreasurer/assets/graph.pkl"), "rb") as f:
     sg = pickle.load(f)
 
 CONTENT_STYLE = {

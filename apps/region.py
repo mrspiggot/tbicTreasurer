@@ -14,22 +14,22 @@ cwd = Path.cwd()
 
 import pickle
 
-with open(cwd.joinpath("assets/region.pkl"), "rb") as f:
+with open(cwd.joinpath("tbicTreasurer/assets/region.pkl"), "rb") as f:
     df = pickle.load(f)
 
-with open(cwd.joinpath("assets/r_list.pkl"), "rb") as f:
+with open(cwd.joinpath("tbicTreasurer/assets/r_list.pkl"), "rb") as f:
     r_list = pickle.load(f)
 
-with open(cwd.joinpath("assets/bra_regions.pkl"), "rb") as f:
+with open(cwd.joinpath("tbicTreasurer/assets/bra_regions.pkl"), "rb") as f:
     bp = pickle.load(f)
 
-with open(cwd.joinpath("assets/ca_states.pkl"), "rb") as f:
+with open(cwd.joinpath("tbicTreasurer/assets/ca_states.pkl"), "rb") as f:
     canp = pickle.load(f)
 
-with open(cwd.joinpath("assets/uk_countries.pkl"), "rb") as f:
+with open(cwd.joinpath("tbicTreasurer/assets/uk_countries.pkl"), "rb") as f:
     uk = pickle.load(f)
 
-with open(cwd.joinpath("assets/us_states.pkl"), "rb") as f:
+with open(cwd.joinpath("tbicTreasurer/assets/us_states.pkl"), "rb") as f:
     us = pickle.load(f)
 
 uk.columns = ['region', 'population']

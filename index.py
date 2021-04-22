@@ -14,7 +14,7 @@ from apps import portfolio, currency, owner, stype, sector, research, semple_sli
 cwd = Path.cwd()
 
 
-img = Image.open(cwd.joinpath('assets\Clear Bear.png'))
+img = Image.open(cwd.joinpath('tbicTreasurer/assets/Clear Bear.png'))
 
 covid_dropdown = dbc.DropdownMenu(
     children=[

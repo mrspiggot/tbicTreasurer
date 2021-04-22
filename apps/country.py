@@ -14,10 +14,10 @@ import pickle
 
 cwd = Path.cwd()
 
-with open(cwd.joinpath("assets/country.pkl"), "rb") as f:
+with open(cwd.joinpath("tbicTreasurer/assets/country.pkl"), "rb") as f:
     df = pickle.load(f)
 
-with open(cwd.joinpath("assets/world_pop.pkl"), "rb") as f:
+with open(cwd.joinpath("tbicTreasurer/assets/world_pop.pkl"), "rb") as f:
     wp = pickle.load(f)
 
 
